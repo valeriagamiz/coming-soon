@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+		margin:0;
+		padding:0;
+		background: url("../images/stars.png")no-repeat center center;
+		background-size: cover;
+		color: white;
+
+
+}
+header{
+		width: 100%;
+		margin:0;
+		padding: 0;
+}
+
+h1{
+	margin-top:-1rem;
+	text-align: center;
+	color: white;
+}
+
+.myface{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.logo{
+	width: 9%;
+	display: block;
+	margin: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.socialmedia{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: -1.3rem;
+	margin-bottom: 1.3rem;
+}
+
+.info{
+	font-size: 1rem;
+	text-align: left;
+	color: white;
+	padding: .5rem;
+	margin-top: 1rem;
+	margin-right:2rem;
+	margin-left:2rem;
+}
+
+.email{
+	font-size: 1rem;
+	text-align: center;
+	margin-top: -1.4rem;
+}
+
+.phone{
+	font-size: 1rem;
+	text-align: center;
+}
+
+.end{
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	margin-top: -2/5rem;
+	padding:3rem 2rem 1rem 1rem;
+	color: skyblue;
+}
+
+a{
+	color: white;
+}
+
+a:link {
+    text-decoration: none;
+		color: white;
+}
+
+footer{
+	background-color: skyblue;
+	padding: 2rem;
+	margin:0;
+}
+
+@media only screen and (min-width: 42em) {
+	.info{
+		font-size: 1.2rem;
+		text-align: center;
+		color: white;
+		padding: 8em;
+		margin-top: -8rem;
+	}
+
+	.myface{
+		display: block;
+		margin: auto;
+		width: 15%;
+	}
+
+	.end{
+		text-align: center;
+		font-family: 'Bangers', cursive;
+		margin-top: -10rem;
+		padding-right:7em;
+		padding-left:7em;
+		color: skyblue;
+	}
+
+	.logo{
+		width: 5%;
+		display: block;
+		margin: auto;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+}
